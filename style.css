@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 6vh;
+    
+    
+}
+header a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: #a0a0a0;
+
+}
+header a:after{
+    content: "";
+    position: absolute;
+    background-color: #2175ad;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
+}
+
+header a:hover:after{
+    width: 100%;
+}
+.navy{
+    justify-content: center;
+    text-decoration: none;
+    text-transform: none;
+ 
+}
+
+.intro{
+    display: flex;
+    background-image: url(./assets/pccafe.png);
+    width: 100%;
+    height:calc(100vh - 4vh);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+.Titulo{
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+

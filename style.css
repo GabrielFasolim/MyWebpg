@@ -14,7 +14,7 @@ header a:after{
     height: 1px;
     width: 0;
     left: 0;
-    bottom: -6px;
+    bottom: -3px;
     transition: 0.3s;
 }
 
@@ -49,6 +49,85 @@ header a:hover:after{
     justify-content: center;
 }
 
+.about{
+    margin-top: 2rem;
+}
+
+
+#linguagens{
+    font-size: 20px;
+}
+
+#villaimg{
+    height: 40vh;
+    border-radius: 5%;
+    
+}
+.seta{
+    height: 5vh;
+    animation: setinha 1s ease alternate infinite;
+}
+@keyframes setinha{
+    to{
+        transform: translateY(30px);
+    }
+    
+}
+
+.setascroll{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
 .tittleHello{
     margin-top: 3rem;
+}
+.tituloContato{
+    font-size: 30px;
+}
+.contato{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+#imgwhats{
+    height:10vh;
+    border-radius: 15%;
+}
+.projetos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+#imginsta{
+    height: 10vh;
+    border-radius: 15%;
+}
+
+
+#imggit{
+    height:10vh;
+    border-radius: 15%;
+}
+
+#imgemail{
+    height: 10vh;
+    border-radius: 15%;
+}
+
+#imglinkedin{
+    height: 10vh;
+    border-radius: 15%;
+}
+
+.botoesContato{
+    display: flex;
+    gap: 1rem;
 }

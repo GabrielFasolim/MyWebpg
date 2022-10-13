@@ -1,16 +1,10 @@
-.header{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 6vh;
-    
-    
-}
+
 header a{
     position: relative;
     text-decoration: none;
     font-family: 'Poppins',sans-serif;
     color: #a0a0a0;
+    padding-left: 2rem;
 
 }
 header a:after{
@@ -27,27 +21,34 @@ header a:after{
 header a:hover:after{
     width: 100%;
 }
-.navy{
-    justify-content: center;
-    text-decoration: none;
-    text-transform: none;
- 
-}
 
-.intro{
+
+.header{
     display: flex;
-    background-image: url(./assets/pccafe.png);
-    width: 100%;
-    height:calc(100vh - 4vh);
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
+    justify-items: center;
+    justify-content: center;
+    
     
 
 }
 
-.Titulo{
-    margin-left: 5rem;
-    margin-top: 5rem;
+.intro{
+    background-image: url(assets/Wallwhite.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:calc(100vh - 10vh);
+   
 }
 
+.textintro{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tittleHello{
+    margin-top: 3rem;
+}

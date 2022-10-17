@@ -31,9 +31,12 @@ header a:hover:after{
     
 
 }
+.tittlehello{
+    margin-top: 4rem;
+}
 
 .intro{
-    background-image: url(assets/Wallwhite.jpg);
+    background-image: url(assets/listras.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -59,9 +62,14 @@ header a:hover:after{
 }
 
 #villaimg{
-    height: 40vh;
+    height: 30vh;
     border-radius: 5%;
     
+}
+
+#foodimg{
+    height: 30vh;
+    border-radius: 5%;
 }
 .seta{
     height: 5vh;
@@ -95,8 +103,11 @@ header a:hover:after{
     align-items: center;
 
 }
+.projetosicon{
+    display: flex;
+}
 #imgwhats{
-    height:10vh;
+    height:7vh;
     border-radius: 15%;
 }
 .projetos{
@@ -107,23 +118,23 @@ header a:hover:after{
     padding-top: 3rem;
 }
 #imginsta{
-    height: 10vh;
+    height: 7vh;
     border-radius: 15%;
 }
 
 
 #imggit{
-    height:10vh;
+    height:7vh;
     border-radius: 15%;
 }
 
 #imgemail{
-    height: 10vh;
+    height: 7vh;
     border-radius: 15%;
 }
 
 #imglinkedin{
-    height: 10vh;
+    height: 7vh;
     border-radius: 15%;
 }
 

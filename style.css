@@ -22,6 +22,10 @@ header a:hover:after{
     width: 100%;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 .header{
     display: flex;

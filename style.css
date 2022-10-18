@@ -31,118 +31,62 @@ html{
     display: flex;
     justify-items: center;
     justify-content: center;
-    
-    
+    background-color: #5c5151;
+}
+#navscroll{
+    background-color:#5c5151 !important;
 
 }
-.tittlehello{
-    margin-top: 4rem;
-}
 
-.intro{
-    background-image: url(assets/listras.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height:calc(100vh - 10vh);
-   
-}
-
-.textintro{
-    
+.painel1{
     display: flex;
-    align-items: center;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5c5151;
+    background-size: cover;
+    height: 94vh
+}
+ 
+.titulo{
+    font-size: 80px;
+    color: rgb(163, 165, 167);
+}
+.devtitulo{
+    color:rgb(163, 165, 167);;
 }
 
-.about{
-    margin-top: 2rem;
+.setaanimada{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
-#linguagens{
-    font-size: 15px;
-}
 
-#villaimg{
-    height: 30vh;
-    border-radius: 5%;
-    
-}
-
-#foodimg{
-    height: 30vh;
-    border-radius: 5%;
-}
 .seta{
     height: 5vh;
-    animation: setinha 1s ease alternate infinite;
-}
-@keyframes setinha{
-    to{
-        transform: translateY(30px);
-    }
-    
 }
 
-.setascroll{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.botaolearn{
     margin-top: 5rem;
+    color: rgb(163, 165, 167);;
+}
+.nav-item{
+    background-color: #5c5151;
 }
 
-.tittleHello{
-    margin-top: 3rem;
+#icon{
+    height: 40vh;
+    border-radius: 100%;
 }
-.tituloContato{
-    font-size: 30px;
-}
-.contato{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-
-}
-.projetosicon{
-    display: flex;
-}
-#imgwhats{
-    height:7vh;
-    border-radius: 15%;
-}
-.projetos{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 3rem;
-}
-#imginsta{
-    height: 7vh;
-    border-radius: 15%;
+.painel2{
+    background-color:#474141 ;
 }
 
-
-#imggit{
-    height:7vh;
-    border-radius: 15%;
+#foto{
+    height: 15vh;
+    border-radius: 100%;
 }
 
-#imgemail{
-    height: 7vh;
-    border-radius: 15%;
-}
-
-#imglinkedin{
-    height: 7vh;
-    border-radius: 15%;
-}
-
-.botoesContato{
-    display: flex;
-    gap: 1rem;
-}

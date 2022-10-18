@@ -53,7 +53,9 @@ html{
     color: rgb(163, 165, 167);
 }
 .devtitulo{
-    color:rgb(163, 165, 167);;
+    color:rgb(163, 165, 167);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .setaanimada{
@@ -82,11 +84,18 @@ html{
     border-radius: 100%;
 }
 .painel2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     background-color:#474141 ;
 }
 
 #foto{
+    margin-top: 4rem;
+    margin-left: 0rem;
     height: 15vh;
     border-radius: 100%;
+    box-shadow: -15px -10px rgb(54, 54, 54);
 }
 

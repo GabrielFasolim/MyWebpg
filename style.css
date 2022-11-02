@@ -31,10 +31,10 @@ html{
     display: flex;
     justify-items: center;
     justify-content: center;
-    background-color: #5c5151;
+    background-color: #463d3d;
 }
 #navscroll{
-    background-color:#5c5151 !important;
+    background-color:#463d3d !important;
 
 }
 
@@ -44,6 +44,7 @@ html{
     flex-direction: column;
     align-items: center;
     background-color: #5c5151;
+    background-image: linear-gradient(#463d3d, #5c5151);;
     background-size: cover;
     height: 94vh
 }
@@ -69,6 +70,7 @@ html{
 
 .seta{
     height: 5vh;
+    
 }
 
 .botaolearn{
@@ -76,7 +78,7 @@ html{
     color: rgb(163, 165, 167);;
 }
 .nav-item{
-    background-color: #5c5151;
+    background-color: #463d3d;
 }
 
 #icon{
@@ -90,12 +92,36 @@ html{
     justify-content: center;
     background-color:#474141 ;
 }
+#titleprof{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
 
 #foto{
-    margin-top: 4rem;
+    margin-right: 2rem;
     margin-left: 0rem;
     height: 15vh;
     border-radius: 100%;
     box-shadow: -15px -10px rgb(54, 54, 54);
 }
 
+.textoprofile{
+    display: flex;
+}
+.aboutme{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.textabout{
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.textprof{
+    color: rgb(163, 165, 167);
+}
+
+.sep{
+    margin-left: 1rem;
+}

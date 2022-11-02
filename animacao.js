@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded',() =>{
     new TypeIt(".animated", {
-        speed:150,
+        speed:85,
         waitUntilVisible: true
     }).type('', {delay:1000})
     

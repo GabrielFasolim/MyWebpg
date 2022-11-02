@@ -1,0 +1,12 @@
+.seta{
+    animation: setinha 1s ease  alternate infinite;
+    animation-name: setinha;
+}
+
+@keyframes setinha {
+    from{
+        transform: translateY(30px)
+    }
+
+    
+}

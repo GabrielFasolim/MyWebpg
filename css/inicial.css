@@ -25,6 +25,10 @@ header a:hover:after{
 html{
     scroll-behavior: smooth;
 }
+.nav-link{
+    text-decoration: none !important;
+    
+}
 
 
 .header{
@@ -48,7 +52,7 @@ html{
     background-size: cover;
     height: 94vh
 }
- 
+
 .titulo{
     font-size: 80px;
     color: rgb(163, 165, 167);
@@ -107,6 +111,7 @@ html{
 
 .textoprofile{
     display: flex;
+    margin-bottom: 2rem;
 }
 .aboutme{
     display: flex;
@@ -124,4 +129,55 @@ html{
 
 .sep{
     margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+
+.projetosbox{
+    height: 25vh;
+    border-radius: 10%;
+}
+
+#tituloProjetos{
+    color: rgb(163, 165, 167);
+    text-align: center;
+}
+.projetos{
+  
+    background-image: linear-gradient(#413b3b, #3d3636);
+    
+}
+
+.boxProjetos{
+    margin-top: 3rem;
+    display: grid;
+    gap: 10px;
+    
+}
+
+.iconfoot{
+    height: 7vh;
+    border-radius: 50%;
+}
+
+.foot{
+    background-color: #413b3b;
+}
+.tituloContato{
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.hand{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
 }

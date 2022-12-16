@@ -48,24 +48,32 @@ body{
 .font{
     color: #a0a0a0;
 }
-#titulovilla{
-    text-align: center;
-}
-#aboutvilla{
-    font-size: 15px;
-}
+
+
 #linkvilla{
     text-decoration: none;
     color: #a0a0a0;
     font-size: 20px;
     margin-bottom: 3rem;
 }
+.boxcenter{
+    width: 75vw;
+    height: 50vh;
+    
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+}
 
 #sobrevilla{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+
+
 }
 
 .painel{
@@ -78,3 +86,4 @@ body{
 #fototeste{
     height: 30vh;
 }
+

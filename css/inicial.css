@@ -159,7 +159,7 @@ html{
 }
 .fifth {
     border-color: #494443;
-    border-radius: 0;
+    
     color: #443f3b;
     position: relative;
     overflow: hidden;
@@ -188,6 +188,9 @@ html{
 }
 .fifth:hover:after {
     width: 110%;
+}
+#imggitbutton{
+    height: 3vh;
 }
 
 .botao{

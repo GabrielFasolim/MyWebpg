@@ -66,6 +66,7 @@ body{
     border-radius: 1%;
     height: 50vh;
     margin-bottom: 4rem;
+    box-shadow: 5px -7px 5px  rgb(29, 29, 29) !important;
     
 }
 .textbox{
@@ -101,6 +102,9 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 3rem;
+}
+#carouselExampleSlidesOnly{
+    box-shadow: 12px -10px 15px  rgb(29, 29, 29) !important;
 }
 
 

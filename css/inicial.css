@@ -72,8 +72,8 @@ html{
 
 
 
-.seta{
-    height: 5vh;
+#seta{
+    height: 7vh;
     
 }
 
@@ -106,7 +106,7 @@ html{
     margin-left: 0rem;
     height: 15vh;
     border-radius: 100%;
-    box-shadow: -15px -10px rgb(54, 54, 54);
+    box-shadow: 12px -6px rgb(54, 54, 54);
 }
 
 .textoprofile{
@@ -225,4 +225,10 @@ html{
     margin-top: 1rem;
     display: flex;
     justify-content: center;
+}
+
+.projetosbox:hover{
+    opacity:0.9;
+    box-shadow: 8px -10px 8px rgb(29, 29, 29);
+    height: 26vh;
 }

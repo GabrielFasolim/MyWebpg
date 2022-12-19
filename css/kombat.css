@@ -45,3 +45,114 @@ body{
   background-image: linear-gradient(#463d3d, #5c5151);;
   background-repeat: no-repeat;
 }
+.font{
+  color: #a0a0a0;
+}
+
+
+#linkvilla{
+  text-decoration: none;
+  color: #a0a0a0;
+  font-size: 20px;
+  margin-bottom: 3rem;
+}
+
+.boxcenter{
+  display: flex;
+  background-color:#332d2d;
+  margin-top: 3rem;
+  margin-left: calc(12% - 10px);
+  margin-right: calc(12% - 10px);
+  border-radius: 1%;
+  height: 50vh;
+  margin-bottom: 4rem;
+  
+}
+.textbox{
+  margin-top: 3rem;
+  margin-left: 4rem;
+  
+}
+
+#tittlevilla{
+  font-weight: bold;
+}
+
+#sobrevilla{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+.painel{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#fototeste{
+  height: 30vh;
+}
+
+.carrossel{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+
+
+.buttonvilla{
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.bn13 {
+  display: inline-block;
+  padding: 0.65em 1.6em;
+  border: 3px solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  animation: bn13bouncy 5s infinite linear;
+  position: relative;
+}
+
+.bn13:hover {
+  background-color: white;
+  color: #000000;
+}
+
+@keyframes bn13bouncy {
+  0% {
+    top: 0em;
+  }
+  40% {
+    top: 0em;
+  }
+  43% {
+    top: -0.9em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.4em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
+}

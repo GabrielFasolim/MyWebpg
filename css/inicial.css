@@ -205,8 +205,15 @@ html{
     border-radius: 50%;
 }
 
+.iconfoot:hover{
+    height: 8vh;
+    opacity: 0.8;
+    box-shadow: 5px -7px 5px  rgb(29, 29, 29)
+}
+
 .foot{
     background-color: #413b3b;
+    height: 20vh;
 }
 .tituloContato{
     display: flex;

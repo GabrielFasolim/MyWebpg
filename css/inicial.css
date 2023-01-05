@@ -239,3 +239,74 @@ html{
     box-shadow: 8px -10px 8px rgb(29, 29, 29);
     height: 26vh;
 }
+
+
+
+
+@media(max-width: 1200px){
+    .projetosbox{
+        height:20vh;
+    }
+    .projetosbox:hover{
+        height: 21vh;
+    }
+}
+
+@media(max-width: 960px){
+    .titulo{
+        font-size:70px ;
+    }
+}
+@media(max-width:768px){
+    .titulo{
+       font-size: 60px ; 
+    }
+    .boxProjetos{
+        gap: 10px;
+        grid-template-columns: repeat(3, 200px);
+        grid-template-rows: repeat(3, 200px);
+    }
+    .foot{
+        height: 22vh;
+    }
+}
+
+
+@media(max-width:425px){
+    .painel1{
+        width: 100%;
+    }
+    .titulo{
+        font-size: 35px;
+    }
+    #icon{
+        height: 35vh;
+    }
+    .boxProjetos{
+        gap: 10px;
+        grid-template-columns: repeat(3, 115px);
+        grid-template-rows: repeat(3, 115px);
+    }
+    .projetosbox{
+        height: 12vh;
+    }
+    #titleprof{
+        font-size: 30px;
+    }
+    .textprof{
+        font-size: 14px;
+    }
+    #foto{
+        height: 15vh;
+        margin-left: 1rem;
+    }
+    #tituloProjetos{
+        font-size: 30px;
+    }
+    .iconfoot{
+        height: 5vh;
+    }
+    #contactme{
+        font-size: 23px;
+    }
+}

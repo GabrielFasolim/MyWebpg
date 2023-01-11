@@ -213,7 +213,7 @@ html{
 
 .foot{
     background-color: #413b3b;
-    height: 20vh;
+    height: 25vh;
 }
 .tituloContato{
     display: flex;
@@ -238,6 +238,10 @@ html{
     opacity:0.9;
     box-shadow: 8px -10px 8px rgb(29, 29, 29);
     height: 26vh;
+}
+
+#handcraft{
+    margin-top: 2rem;
 }
 
 
@@ -308,5 +312,20 @@ html{
     }
     #contactme{
         font-size: 23px;
+    }
+}
+
+@media(max-width:375px){
+    .titulo{
+        font-size: 30px;
+    }
+    #textabout{
+        font-size: 11px;
+    }
+    #foto{
+        height: 13vh;
+    }
+    .textprof{
+        font-size: 11px;
     }
 }

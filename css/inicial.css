@@ -260,6 +260,9 @@ html{
     .titulo{
         font-size:70px ;
     }
+    .projetosbox:hover{
+        height: 19vh;
+    }
 }
 @media(max-width:768px){
     .titulo{
@@ -271,6 +274,9 @@ html{
         grid-template-rows: repeat(3, 200px);
     }
     .foot{
+        height: 22vh;
+    }
+    .projetosbox:hover{
         height: 22vh;
     }
 }
@@ -288,8 +294,8 @@ html{
     }
     .boxProjetos{
         gap: 10px;
-        grid-template-columns: repeat(3, 115px);
-        grid-template-rows: repeat(3, 115px);
+        grid-template-columns: repeat(3, 110px);
+        grid-template-rows: repeat(3, 110px);
     }
     .projetosbox{
         height: 12vh;
@@ -308,10 +314,13 @@ html{
         font-size: 30px;
     }
     .iconfoot{
-        height: 5vh;
+        height: 4.5vh;
     }
     #contactme{
         font-size: 23px;
+    }
+    .projetosbox:hover{
+        height: 14vh;
     }
 }
 
@@ -323,9 +332,20 @@ html{
         font-size: 11px;
     }
     #foto{
-        height: 13vh;
+        height: 10vh;
     }
     .textprof{
         font-size: 11px;
     }
+    .projetosbox:hover{
+        height: 14vh;
+    }
+    .projetosbox{
+        height: 11vh;
+    }
+    .boxProjetos{
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(3, 100px);
+    }
+
 }

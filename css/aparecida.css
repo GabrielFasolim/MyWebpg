@@ -1,0 +1,276 @@
+header a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: #a0a0a0;
+    padding-left: 2rem;
+  
+  }
+header a:after{
+    content: "";
+    position: absolute;
+    background-color: #2175ad;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 0.3s;
+  }
+  
+header a:hover:after{
+    width: 100%;
+  }
+  
+html{
+    scroll-behavior: smooth;
+  }
+.nav-link{
+    text-decoration: none !important;
+    
+}
+  
+  
+.header{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    background-color: #463d3d;
+  }
+#navscroll{
+    background-color:#463d3d !important;
+  
+}
+  body{
+    background-color: #5c5151;
+    background-image: linear-gradient(#463d3d, #5c5151);;
+    background-repeat: no-repeat;
+}
+.font{
+    color: #a0a0a0;
+}
+  
+  
+#linkvilla{
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+  
+.boxcenter{
+    display: flex;
+    background-color:#332d2d;
+    margin-top: 3rem;
+    margin-left: calc(12% - 10px);
+    margin-right: calc(12% - 10px);
+    border-radius: 1%;
+    height: 50vh;
+    margin-bottom: 4rem;
+    box-shadow: 5px -7px 5px  rgb(29, 29, 29) !important;
+  
+    
+  }
+.textbox{
+    margin-top: 3rem;
+    margin-left: 4rem;
+    
+  }
+  
+#tittlevilla{
+    font-weight: bold;
+  }
+  
+#sobrevilla{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+  
+  }
+  
+.painel{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+#fototeste{
+    height: 30vh;
+  }
+  
+.carrossel{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    
+  }
+#carouselExampleSlidesOnly{
+    box-shadow: 12px -10px 15px  rgb(29, 29, 29) !important;
+  }
+  
+  
+.buttongit{
+    height: 5vh;
+  }
+  
+.buttonvilla{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+.bn13 {
+    display: inline-block;
+    padding: 0.65em 1.6em;
+    border: 3px solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+    animation: bn13bouncy 5s infinite linear;
+    position: relative;
+    
+  }
+  
+.bn13:hover {
+    background-color: white;
+    color: #000000;
+  }
+  
+@keyframes bn13bouncy {
+    0% {
+      top: 0em;
+    }
+    40% {
+      top: 0em;
+    }
+    43% {
+      top: -0.9em;
+    }
+    46% {
+      top: 0em;
+    }
+    48% {
+      top: -0.4em;
+    }
+    50% {
+      top: 0em;
+    }
+    100% {
+      top: 0em;
+    }
+  }
+   
+  .git{
+    height:3vh;
+    margin-right: 0.5rem;
+  }
+  
+  
+  @media(max-width:768px){
+    .carrossel{
+      height:65vw !important;
+      margin-left: calc(5% - 10px);
+      margin-right: calc(5% - 10px);
+      transform: scale(0.9, 0.75)
+    }
+    
+    
+    #tittlevilla{
+      font-size: 35px;
+    }
+    .font{
+      font-size: 15px;
+    }
+    .boxcenter{
+      
+      height: 50vh;
+    }
+}
+  
+  
+@media(max-width:425px){
+    .carrossel{
+      margin-left: calc(7% - 10px);
+      margin-right: calc(7% - 10px);
+      height: 50vh !important;
+      transform: scale(1.0, 0.6);
+    }
+    #carouselExampleSlidesOnly{
+      box-shadow: 6px -6px 10px  rgb(29, 29, 29) !important;
+    }
+    
+    #tittlevilla{
+      font-size: 23px;
+    }
+    .font{
+      font-size: 12px;
+      margin-right: 3rem;
+    }
+    .buttonvilla{
+      width: 60vw;
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    .bn13 {
+      display: inline-block;
+      padding: 0.5em 1.0em;
+      border: 2px solid #ffffff;
+      margin: 0 0.1em 0.1em 0;
+      border-radius: 0.12rem;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+      font-weight: 100;
+      color: #ffffff;
+      text-align: center;
+      transition: all 0.2s;
+      animation: bn13bouncy 5s infinite linear;
+      position: relative;
+    
+      
+    }
+    
+  }
+  
+@media(max-width:375px){
+    .carrossel{
+      margin-left: calc(10% - 7px);
+      margin-right: calc(10% - 7px);
+      height: 50vh !important;
+      transform: scale(1.1, 0.5);
+    }
+    .bn13 {
+      display: inline-block;
+      padding: 0.4em 0.2em;
+      border: 2px solid #ffffff;
+      margin: 0 0.1em 0.1em 0;
+      border-radius: 0.12rem;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+      font-weight: 100;
+      color: #ffffff;
+      text-align: center;
+      transition: all 0.2s;
+      animation: bn13bouncy 5s infinite linear;
+      position: relative;
+     
+    
+      
+    }
+    .buttonvilla{
+      margin-right: 3rem;
+    }
+    .font{
+      margin-right: 4rem;
+    }
+    
+  }

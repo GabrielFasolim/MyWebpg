@@ -134,7 +134,7 @@ html{
 
 
 .projetosbox{
-    height: 25vh;
+    height: 22vh;
     border-radius: 10%;
 }
 
@@ -237,7 +237,7 @@ html{
 .projetosbox:hover{
     opacity:0.9;
     box-shadow: 8px -10px 8px rgb(29, 29, 29);
-    height: 26vh;
+    height: 23.5vh;
 }
 
 #handcraft{

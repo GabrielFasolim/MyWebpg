@@ -161,6 +161,15 @@ body{
     }
 }
 
+@media(max-width:1368px){
+  .boxcenter{
+    height: 60vh;
+  }
+  .buttonvilla{
+    margin-top: 0rem;
+  }
+}
+
 @media(max-width:768px){
     .carrossel{
       height:65vw !important;

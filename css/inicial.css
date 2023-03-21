@@ -244,7 +244,32 @@ html{
     margin-top: 2rem;
 }
 
+@media(max-width: 1368px){
+    .projetosbox{
+        height: 28vh;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        gap: 0rem;
+    }
+    .projetosbox:hover{
+        height: 30vh;
+    }
+    .boxProjetos{
+        gap:0px;
+        justify-content: center;
+        
+    }
+    #contactme{
+        font-size: 32px;
+    }
 
+    .foot{
+        height: 35vh;
+    }
+    .iconfoot{
+        height: 10vh;
+    }
+}
 
 
 @media(max-width: 1200px){
